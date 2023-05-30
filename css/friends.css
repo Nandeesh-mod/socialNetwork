@@ -1,0 +1,81 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    height: 35px;
+    width: 310px;
+    margin: 6px 8px 2px 8px;
+    padding: 7px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.search
+{
+    border: none;
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+.search:hover
+{
+    background-color: #0fb060;
+    color: white;
+}
+
+.result
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 9px;
+    
+}
+.inner-details
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-img
+{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.follow
+{
+    border: none;
+    width: 65px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+.follow:hover
+{
+    background-color: #0fb060;
+    color: white;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 200;
+    font-family: serif;
+}
+

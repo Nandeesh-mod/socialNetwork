@@ -1,0 +1,45 @@
+
+.fullouter
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .something
+{
+    position: sticky;
+    top: 0px;
+} */
+.navbar
+{
+    width: 40%;
+    height: 800px;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
+
+.top-bar
+{
+    position: sticky;
+    top: 0px;
+}
+.other-user
+{
+    width: 40%;
+    height: 800px;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
